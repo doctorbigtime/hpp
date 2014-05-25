@@ -5,6 +5,8 @@
 #include <cstdio>
 #include <cuda.h>
 
+// sample of functor passed to kernel
+
 #define cudaCheck(stmt) do { \
    cudaError_t err = stmt; \
    if( err != cudaSuccess ) { \
